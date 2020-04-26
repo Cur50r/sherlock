@@ -59,7 +59,7 @@ $ python3 -m pip install -r requirements.txt
 
 ## Usage
 
-```bash
+```
 $ python3 sherlock.py --help
 usage: sherlock.py [-h] [--version] [--verbose] [--rank]
                    [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--tor]
@@ -69,7 +69,7 @@ usage: sherlock.py [-h] [--version] [--verbose] [--rank]
                    [--timeout TIMEOUT] [--print-found]
                    USERNAMES [USERNAMES ...]
 
-Sherlock: Find Usernames Across Social Networks (Version 0.10.3)
+Sherlock: Find Usernames Across Social Networks (Version 0.10.7)
 
 positional arguments:
   USERNAMES             One or more usernames to check with social networks.
@@ -116,6 +116,8 @@ optional arguments:
                         hand, this may cause a long delay to gather all
                         results.
   --print-found         Do not output sites where the username was not found.
+  --no-color            Don't color terminal output
+  --browse, -b          Browse to all results on default bowser.
 ```
 
 To search for only one user:
